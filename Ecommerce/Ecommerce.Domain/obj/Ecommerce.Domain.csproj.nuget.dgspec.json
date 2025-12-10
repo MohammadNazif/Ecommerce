@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Ecommerce\\Ecommerce\\Ecommerce.Domain\\Ecommerce.Domain.csproj": {}
+    "G:\\My Repo\\Ecommerce\\Ecommerce\\Ecommerce.Domain\\Ecommerce.Domain.csproj": {}
   },
   "projects": {
-    "E:\\Ecommerce\\Ecommerce\\Ecommerce.Domain\\Ecommerce.Domain.csproj": {
+    "G:\\My Repo\\Ecommerce\\Ecommerce\\Ecommerce.Domain\\Ecommerce.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Ecommerce\\Ecommerce\\Ecommerce.Domain\\Ecommerce.Domain.csproj",
+        "projectUniqueName": "G:\\My Repo\\Ecommerce\\Ecommerce\\Ecommerce.Domain\\Ecommerce.Domain.csproj",
         "projectName": "Ecommerce.Domain",
-        "projectPath": "E:\\Ecommerce\\Ecommerce\\Ecommerce.Domain\\Ecommerce.Domain.csproj",
-        "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
-        "outputPath": "E:\\Ecommerce\\Ecommerce\\Ecommerce.Domain\\obj\\",
+        "projectPath": "G:\\My Repo\\Ecommerce\\Ecommerce\\Ecommerce.Domain\\Ecommerce.Domain.csproj",
+        "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
+        "outputPath": "G:\\My Repo\\Ecommerce\\Ecommerce\\Ecommerce.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\1\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -50,6 +49,22 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "System.Diagnostics.Tools": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
